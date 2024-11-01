@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid-width {
+  max-width: 960px;
+  margin: 0 auto;
+  max-height: 960px;
+}
+
+.single-row {
+  display: flex;
+}
+
+.individual-row-block {
+  flex: 1;
+  border: 1px solid black;
+}
+
+.single-column {
+  display: flex;
+  flex-direction: column;
+}
