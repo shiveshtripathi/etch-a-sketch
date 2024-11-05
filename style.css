@@ -7,9 +7,15 @@
 .grid-width {
   max-width: 960px;
   margin: 0 auto;
+  height: 100vh;
+  display: flex; /* Flex on each parent */
+  flex-direction: column;
+  justify-content: center; /* Center the child horizontally */
+  align-items: center; /* Center the child vertically */
 }
 
 .single-row {
+  width: 100%;
   display: flex; /* Flex on each parent */
   justify-content: center; /* Center the child horizontally */
   align-items: center; /* Center the child vertically */
