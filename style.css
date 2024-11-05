@@ -7,19 +7,19 @@
 .grid-width {
   max-width: 960px;
   margin: 0 auto;
-  max-height: 960px;
 }
 
 .single-row {
-  display: flex;
+  display: flex; /* Flex on each parent */
+  justify-content: center; /* Center the child horizontally */
+  align-items: center; /* Center the child vertically */
 }
 
 .individual-row-block {
-  flex: 1;
-  border: 1px solid black;
-}
-
-.single-column {
-  display: flex;
-  flex-direction: column;
+  flex: 0 1 auto; /* Prevents children from stretching */
+  width: 100%; /* Child width is the same as parent width */
+  height: 25px; /* Set a specific height */
+  background-color: lightblue; /* Optional: background color to visualize */
+  border: 1px solid #ccc; /* Optional: border to visualize grid structure */
+  text-align: center;
 }
