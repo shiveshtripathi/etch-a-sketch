@@ -4,27 +4,32 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Full viewport height */
+}
+
 .grid-width {
-  max-width: 960px;
-  margin: 0 auto;
-  height: 100vh;
-  display: flex; /* Flex on each parent */
+  display: flex;
   flex-direction: column;
-  justify-content: center; /* Center the child horizontally */
-  align-items: center; /* Center the child vertically */
+  flex: 0 1 auto;
+  width: 960px;
+  height: 480px;
 }
 
 .single-row {
   width: 100%;
+  height: 100%;
   display: flex; /* Flex on each parent */
   justify-content: center; /* Center the child horizontally */
   align-items: center; /* Center the child vertically */
 }
 
 .individual-row-block {
-  flex: 0 1 auto; /* Prevents children from stretching */
   width: 100%; /* Child width is the same as parent width */
-  height: 25px; /* Set a specific height */
+  height: 100%; /* Set a specific height */
   background-color: lightblue; /* Optional: background color to visualize */
   border: 1px solid #ccc; /* Optional: border to visualize grid structure */
   text-align: center;
