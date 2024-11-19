@@ -4,6 +4,7 @@
   font-size: medium;
   font-weight: bolder;
   text-align: center;
+  margin: 0 auto;
 }
 
 .hero-text {
@@ -24,4 +25,5 @@
 .sketch-grid {
   max-width: 960px;
   max-height: 70vh;
+  margin: 0 auto;
 }
