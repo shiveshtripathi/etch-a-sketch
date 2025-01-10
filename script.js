@@ -44,9 +44,10 @@ function generateGrid(gridSize = 10) {
 
 //To display the grid message
 function displaySize(gridSize) {
-  if (gridSize > 0 && gridSize <= 100)
+  if (gridSize > 0 && gridSize <= 100) {
     displayGridSize.textContent = `Current grid size is ${gridSize}x${gridSize}`
-  else {
+    displayGridSize.classList.remove('red-text')
+  } else {
     displayGridSize.textContent = `Your input ${gridSize} is not an accepted value. Please enter value between 1 to 100. Current grid size reset to 10x10`
     displayGridSize.classList.add('red-text')
   }

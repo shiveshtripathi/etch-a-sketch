@@ -27,6 +27,98 @@
   border: 1px solid white;
 }
 
+.project-name.header {
+  font-family: 'Arial', sans-serif;
+  font-size: 28px;
+  color: #ffffff;
+  background-color: #4caf50; /* Green background */
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.display-current-grid-size {
+  font-family: 'Verdana', sans-serif;
+  font-size: 18px;
+  color: #333333;
+  background-color: #f9f9f9; /* Light gray background */
+  border: 1px solid #cccccc;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-align: center;
+  width: fit-content;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+.display-current-grid-size:hover {
+  background-color: #f1f1f1; /* Slightly darker gray */
+  border-color: #aaaaaa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.grid-sizing {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #333333;
+  background-color: #f8f8f8; /* Light gray background */
+  padding: 20px;
+  border: 2px solid #dddddd;
+  border-radius: 8px;
+  width: fit-content;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.grid-sizing label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.grid-sizing input {
+  width: 80px;
+  padding: 8px;
+  border: 2px solid #4caf50;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  margin-right: 10px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.grid-sizing input:focus {
+  border-color: #1e90ff;
+  box-shadow: 0 0 5px #1e90ff;
+}
+
+.grid-sizing button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.grid-sizing button:hover {
+  background-color: #45a049;
+}
+
+.grid-sizing button:active {
+  background-color: #367c39;
+  transform: scale(0.95);
+}
+
 .red-text {
   color: red;
 }
