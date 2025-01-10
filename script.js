@@ -52,3 +52,13 @@ function displaySize(gridSize) {
     displayGridSize.classList.add('red-text')
   }
 }
+
+function setBg(mouseOverElement) {
+  const randomColor = Math.floor(Math.random() * 16777215).toString(16)
+  mouseOverElement.style.backgroundColor = '#' + randomColor
+}
+
+sketchPad.addEventListener('mouseover', (event) => {
+  const targetElement = event.target
+  setBg(targetElement)
+})
