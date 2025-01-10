@@ -9,6 +9,7 @@
   height: 800px;
   flex-direction: column;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 .box {
@@ -121,4 +122,26 @@
 
 .red-text {
   color: red;
+}
+
+footer {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #333333; /* Dark gray background */
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-top: 2px solid #4caf50; /* Green border on top */
+}
+
+footer a {
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #1e90ff; /* Changes to blue on hover */
 }
