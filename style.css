@@ -5,8 +5,8 @@
 
 .sketch-pad {
   display: flex;
-  width: 480px;
-  height: 480px;
+  width: 800px;
+  height: 800px;
   flex-direction: column;
   margin: auto;
 }
